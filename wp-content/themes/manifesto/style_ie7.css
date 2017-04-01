@@ -1,0 +1,5 @@
+.navTabs li a {line-height: 26px; }
+div.postmetadata {display: inline-block; }
+div.postmetadata ul li {display: inline; }
+#archive {overflow: hidden; }
+#archive div.postcontent {width: 440px; } 

@@ -1,0 +1,84 @@
+Manifesto Theme
+http://www.wpzoom.com/themes/manifesto
+ 
+CHANGELOG
+---------
+
+v 2.1 (31 July, 2012)
+	
+	- Added support for native WordPress image cropping
+	- The theme doesn't uses TimThumb script for thumbnails cropping anymore
+	- Files updated:
+		- featured-categories.php
+		- featured-posts.php
+		- loop-index.php
+		- loop.php
+		- style.css
+		- /functions/theme/functions.php
+		- /functions/theme/widgets/featured-category.php
+		- /functions/theme/widgets/recentposts.php
+
+V 2.0.3 (21 May, 2012)
+	- /functions/theme/functions.php - there were 3 menus, while the theme uses only 2 (fixed)
+
+V 2.0.2 (30 April, 2012)
+	- style.css fix for recent posts on homepage (firefox)
+
+V 2.0 (10 April, 2012)
+	- Theme has been ported to the new WPZOOM Framework
+	- All files have been edited
+	- Folders/files structure has been changed
+
+V 1.4.5 (14 December, 2011)
+	- An update for WP 3.3
+	- Files edited: header.php, style.css
+
+V 1.4.4 (29 October, 2011)
+	- Fix for this issue: http://www.wpzoom.com/forum/viewtopic.php?f=95&t=5918
+	- edited files:
+		/ functions/wpzoom_functions.php
+
+V 1.4.2 (26th April, 2011)
+	- fixed some missed localization words
+	- fixed Links widget no-title bug
+	- edited files: 
+		- /functions/wpzoom_functions.php
+		- /languages/en_US.po
+
+V 1.4 (8th April, 2011)
+	- improved video support
+	- added new theme options in WPZOOM: Theme Options page
+	- improved widgets functionality (no widget title bug fixed)
+	- fixed attachment-error bug
+
+V 1.3 (28th February, 2011)
+	- fixed compatibility issue with WP 3.1
+
+V 1.2 (30th December, 2010)
+	- added basic video support in the Featured Posts block on the homepage
+	- new option in the Theme Options page: featured posts autoplay speed (enable/disable)
+	- shortened the excerpt length from 60 words to 40
+	- files changed: 
+		- functions.php
+		- wpzoom_featured_posts.php
+		- /wpzoom_admin/admin_functions.php
+	- added files: 
+		- /functions/wpzoom-video.php
+
+
+V 1.1 (10th December, 2010)
+	- the theme has been internationalized for easier translation
+	- added compatibility with WP Multi-User
+	- thumbnails can now be generated from inside a [gallery] as well
+
+V 1.0.4 (3rd October, 2010)
+	- fixed the header.php SEO functionality
+
+V 1.0.3 (13th August, 2010)
+	- fixed the comments.php bug
+
+V 1.0.2 (11th August, 2010)
+	- fixed some CSS bugs and IE 7 compatibility issues
+
+V 1.0 (4th August, 2010)
+	- initial release

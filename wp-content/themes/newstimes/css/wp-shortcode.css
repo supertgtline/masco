@@ -1,0 +1,255 @@
+/*-----------------------------------------------
+/* Shortcodes
+/*---------------------------------------------*/
+/*-[ Notifications ]---------------------------*/
+.message_box { margin: 10px 0 }
+.message_box p {
+    margin: 0;
+    padding: 8px 14px;
+}
+.note {
+    background: #fbf3e0;
+    color: #a57919;
+    border: 1px solid #e0c272;
+}
+.announce {
+    background: #e8f6fa;
+    color: #1983a6;
+    border: 1px solid #8fd1e6;
+}
+.success {
+    background: #f2fae8;
+    color: #68a519;
+    border: 1px solid #a7dd62;
+}
+.warning {
+    background: #fce9e9;
+    color: #ce1f25;
+    border: 1px solid #f29194;
+}
+/*-[ Buttons ]---------------------------------*/
+.buttons {
+    font-size: 15px;
+    line-height: 1;
+    text-decoration: none;
+    position: relative;
+    margin: 10px 10px 10px 0;
+    padding: 10px 25px;
+    overflow: hidden;
+    display: inline-block;
+    width: auto;
+    border-top: 2px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Could be removed, if "a" transition property is set to "all" */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.buttons span {
+    float: none;
+    overflow: hidden;
+}
+a.buttons {
+    color: #fffefe !important;
+    text-decoration: none;
+}
+a.btn_white { color: #444 !important }
+a.buttons.left {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+a.buttons.right {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+a.buttons.center {
+    clear: both;
+    display: inline-block;
+    float: none;
+    width: auto;
+}
+a.buttons:hover { cursor: pointer }
+/* Button Colors */
+.btn_red { background-color: #e52329 }
+.btn_red:hover { background-color: #f7343a }
+.btn_red:active {
+    background-color: #ce1f25;
+    border-top-color: #a5191e;
+}
+.btn_green { background-color: #67aa11 }
+.btn_green:hover { background-color: #74bf14 }
+.btn_green:active {
+    background-color: #5c970f;
+    border-top-color: #4a790c;
+}
+.btn_blue { background-color: #1983a6 }
+.btn_blue:hover { background-color: #1e9cc5 }
+.btn_blue:active {
+    background-color: #167290;
+    border-top-color: #125b73;
+}
+.btn_yellow { background-color: #aa8125 }
+.btn_yellow:hover { background-color: #c39735 }
+.btn_yellow:active {
+    background-color: #947021;
+    border-top-color: #765a1a;
+}
+.btn_brown { background-color: #D1B593 }
+.btn_brown:hover { background-color: #D9C2A5 }
+.btn_brown:active {
+    background-color: #D1B593;
+    border-top-color: #BC966B;
+}
+.btn_white { background-color: #F4F4F4 }
+.btn_white:hover { background-color: #F7F7F7 }
+.btn_white:active {
+    background-color: #F4F4F4;
+    border-top-color: #CECECE;
+}
+/*-[ Video Shortcode ]-------------------------*/
+.textwidget .youtube-video, .textwidget .vimeo-video, .textwidget .googlemaps { margin: 0 }
+.youtube-video, .vimeo-video { margin: 10px 0 10px 0 }
+/*-[ Google Maps ]-----------------------------*/
+.googlemaps { margin: 5px 15px 10px 0 }
+/*-[ Columns ]---------------------------------*/
+.one_half { width: 48% }
+.one_third { width: 30.66% }
+.two_third { width: 65.33% }
+.one_fourth { width: 22% }
+.three_fourth { width: 74% }
+.one_fifth { width: 16.8% }
+.two_fifth { width: 37.6% }
+.three_fifth { width: 58.4% }
+.four_fifth { width: 67.2% }
+.one_sixth { width: 13.33% }
+.five_sixth { width: 82.67% }
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+    position: relative;
+    margin-right: 4%;
+    margin-bottom: 15px;
+    float: left;
+}
+.column-last {
+    margin-right: 0!important;
+    clear: right;
+}
+/*-[ Tabs ]------------------------------------*/
+.tab_widget {
+    display: block;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+.tab_widget ul.wps_tabs {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0;
+}
+.tab_widget ul.wps_tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 39px;
+    line-height: 39px;
+    border: 1px solid #c5c5c5;
+    border-left: none;
+    margin-bottom: -1px;
+    overflow: hidden;
+    position: relative;
+    background: #444;
+    z-index: 1;
+}
+.tab_widget ul.wps_tabs li:first-child { border-left: 1px solid #c5c5c5 }
+.tab_widget ul.wps_tabs li a {
+    text-decoration: none;
+    color: #fff!important;
+    font-size: 15px;
+    display: block;
+    padding: 0 37px;
+    outline: none;
+    border: none;
+}
+.tab_widget ul.wps_tabs li:first-child a { border-left: none }
+.tab_widget ul.wps_tabs li a:hover { background: none }
+.tab_widget ul.wps_tabs li.active, .tab_widget ul.wps_tabs li.active a:hover {
+    background: #f6f6f6 !important;
+    border-bottom: 1px solid #f6f6f6;
+}
+.tab_widget ul.wps_tabs li.active { border-top: 1px solid #c5c5c5 }
+.tab_widget ul.wps_tabs li.active a { color: #444 !important }
+.tab_widget .tab_container {
+    display: block;
+    border-top: none;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    background: #FFF;
+    border: 1px solid #c5c5c5;
+}
+.tab_widget .tab_content {
+    display: block;
+    position: relative;
+    padding: 25px 20px;
+    background: #f6f6f6;
+}
+/*-[ Toggle ]-----------------------*/
+.toggle {
+    display: block;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+.toggle .wps_togglet, .toggle .toggleta {
+    display: block;
+    padding: 0 20px;
+    background: #f6f6f6;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    margin: 0;
+}
+.toggle .wps_togglet span, .toggle .toggleta span {
+    display: block;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 25px;
+}
+.toggle .wps_togglet:before, .toggle .toggleta:before {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+}
+.toggle .toggleta:before {
+    content: "\f0d7";
+    top: 6px;
+}
+.toggle .togglec {
+    display: block;
+    position: relative;
+    padding: 25px 20px;
+    background: #FFF;
+    border: 1px solid #c5c5c5;
+    border-top: none;
+}
+/*-[ Dividers ]--------------------------------*/
+.divider, .top-of-page {
+    clear: both;
+    display: block;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #c5c5c5;
+}
+.entry-content > .divider, .entry-content > .top-of-page {
+    width: auto;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+.entry-content > .top-of-page a { padding-right: 30px }
